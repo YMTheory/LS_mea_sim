@@ -1,0 +1,13 @@
+## Gun mode ##
+/gps/particle mu-
+/gps/energy 200.0 MeV
+/gps/position 0 0 0 m
+/gps/direction 1 0 0 
+
+
+#/gps/particle opticalphoton
+#/gps/energy 2.884 eV
+#/gps/direction 0 0 1
+#/gps/polarization 1 0 0
+#/gps/position 0 0 0 m
+

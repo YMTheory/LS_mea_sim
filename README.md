@@ -1,2 +1,6 @@
-# LS_mea_sim
-Simulation of LS measurement
+# Simulation software for LS measurement
+
+
+
+## Getting started
+This simulation software is based on Geant4.10.04.p02.

@@ -1,0 +1,20 @@
+# Set detector configuration
+/neu/det/tubeinr 5 cm   # inner radius of the tube
+/neu/det/alref 0.9      # reflectivity
+/neu/det/alfinish polished # optical surface property
+
+# Set LS optical model
+/control/execute newOP.mac  # optical model
+/run/initialize
+
+/control/verbose 1
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+
+# analysis manager
+/analysis/setFileName test_oldOP.root   # name of output root file
+
+/control/execute muon.mac   # particle properties
+
+/run/beamOn 10  # number of events for one job
